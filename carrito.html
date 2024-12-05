@@ -50,17 +50,18 @@
             </p>
         </article>
 
-        <form id="formulario">
+        <form id="formulario" action="extra.html">
+
             <div>
                 <label for="name">Nombre Completo:</label>
                 <br>
-                <input type="text" id="name">
+                <input type="text" id="name" required>
             </div>
             
             <div>
                 <label for="tipo_doc">Tipo de Documento:</label>
                 <br>
-                <select name="documentos" id="tipo_doc">
+                <select name="documentos" id="tipo_doc" required>
                     <option value=""></option>
                     <option value="">Tarjeta de Identidad</option>
                     <option value="">Cédula de Ciudadanía</option>
@@ -72,19 +73,19 @@
             <div>
                 <label for="documento">Documento:</label>
                 <br>
-                <input type="number" id="documento" min="0" max="19999999999">
+                <input type="number" id="documento" min="0" max="19999999999" required>
             </div>
 
             <div>
                 <label for="fecha">Fecha de Nacimiento:</label>
                 <br>
-                <input type="date" id="fecha">
+                <input type="date" id="fecha" required>
             </div>
 
             <div>
                 <label for="correo">Correo Electrónico:</label>
                 <br>
-                <input type="email" id="correo">
+                <input type="email" id="correo" required>
             </div>
 
             <div>
@@ -94,14 +95,14 @@
             </div>
 
             <div>
-                <label for="contra">Cree una Contraseña:</label>
+                <label for="contra" >Cree una Contraseña:</label>
                 <br>
-                <input type="password" id="contra">
+                <input type="password" id="contra" required>
             </div>
             <div>
                 <label for="contra">Confirme la Contraseña:</label>
                 <br>
-                <input type="password" id="contra">
+                <input type="password" id="contra" required>
             </div>
 
             <div class="opciones">
@@ -147,8 +148,8 @@
             </div>
 
             <div>
-                <a href="productos.html"><input type="submit" ></a>
-                <input type="reset">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Cancelar">
             </div>
 
 

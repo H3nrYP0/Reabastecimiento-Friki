@@ -249,6 +249,8 @@ td a{
 #inicio{
     text-align: center;
     margin-top: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
     
 }
 
@@ -259,7 +261,6 @@ td a{
 }
 #inicio p{
     font-size: larger;
-    margin-bottom: 5px
 }
 
 #formulario{
@@ -276,8 +277,6 @@ td a{
     margin-left: 25%;
     border-radius: 20%;
     backdrop-filter: blur(0.6rem);
-    
-    
 }
 
 #formulario div{
@@ -289,6 +288,7 @@ td a{
 
 #formulario .opciones{
     text-align: left;
+    !important
 }
 
 /*------estilos de pagina:productos------*/
