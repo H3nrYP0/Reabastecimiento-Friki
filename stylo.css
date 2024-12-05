@@ -97,7 +97,7 @@ a{
 }
 a:hover{
     border-bottom: 2px solid;
-    font-size: 20px;
+    font-size: 18px;
     transition: 0.5s;
 }
 
@@ -128,6 +128,7 @@ a:hover{
     background: #9a179a60;
     border-radius: 20%;
     margin-bottom: 25px;
+    margin-left: 24%;
     margin-top: 25px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -146,7 +147,7 @@ h2{
     letter-spacing: 5px;
 }
 
-/*contenido de aside*/
+/*contenido de aside:"MAS VENDIDOS DEL MES"*/
 
 .hot-cont{
     place-items: center;
@@ -178,6 +179,7 @@ div.hot{
 div.hot img{
     width: 100%;
     height: auto;
+    border-radius: 5%;
 }
 
 div.hot:hover{
@@ -194,20 +196,20 @@ div.pie{
 }
 
 div.pie p{
-    border: rgb(75, 13, 173) solid;
+    border: #4b0dad50 solid;
     border: 3%;
     margin-bottom: 10px;
 }
 
 .carrito:hover{
-    background-color: orange;
+    background-color: #ffff00;
 }
 
-/*categorias de productos*/
+/*categorias de productos:"NUESTROS PRODUCTOS"*/
 
 #tablass{
     align-items: flex-end;    
-    margin-left: 29%;
+    margin-left: 33%;
 }
 
 /*contenedores de los productos*/
@@ -217,6 +219,9 @@ div.pie p{
     margin-top: 30px
 }
 
+#tablass #tabla .fotos{
+    border-radius: 5%;
+} 
 
 tr,th,td{
     padding: 5px;
@@ -227,6 +232,7 @@ th{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
 td{
     text-align: center;
     align-items: center;
@@ -236,35 +242,6 @@ td a{
     color:blue;
     border-radius: 20px;
     background: #ffff0044;
-}
-
-/*footer*/
-
-#fin{
-    padding: 1rem 2rem;
-    font-size: x-small;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20%;
-    gap: 5%;
-    border: 3px solid rgba(238, 130, 238, 0.567);
-    background: rgb(100, 90, 100);
-    backdrop-filter:  blur(0.4rem);
-}
-
-#fin a{
-    color: #FFFDFC;
-    
-}
-#lista1{
-    align-items: flex-start;
-    text-align: center;
-}
-
-#lista2{
-    text-align: center;
 }
 
 /*------estilos de pagina:carrito------*/
@@ -340,7 +317,7 @@ td a{
 }
 
 .img{
-    height: 200px;
+    height: 250px;
     width: auto;
     border-radius: 20px;
     border: 3px solid #5f368410;
@@ -373,4 +350,33 @@ td a{
 .vi:hover{
     transform: scale(110%);
     transition: 0.5s;
+}
+
+/*footer*/
+
+#fin{
+    padding: 1rem 2rem;
+    font-size: x-small;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    gap: 5%;
+    border: 3px solid rgba(238, 130, 238, 0.567);
+    background: rgb(100, 90, 100);
+    backdrop-filter:  blur(0.4rem);
+}
+
+#fin a{
+    color: #FFFDFC;
+    
+}
+#lista1{
+    align-items: flex-start;
+    text-align: center;
+}
+
+#lista2{
+    text-align: center;
 }
