@@ -1,22 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
 
 body{
     background-image: url(fomdos/lago2.png);
-    display: flex;
-    flex-direction: column;
     background-size: cover;
 }
 
 #todo{
     display: grid;
-    grid-template-rows: auto;
-    min-height: 100vh;
 }
 
 /*comienza el header*/
@@ -29,9 +24,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 150px;
-    border-radius: 2%;
-    
+    gap: 130px;
 }
 
 /*estilo de logos de redes*/
@@ -44,7 +37,6 @@ body{
 
 .red{
     transition: 0.5s;
-    object-fit:cover;
 }
 
 .red:hover{
@@ -55,16 +47,10 @@ body{
 
 #reaki{
     transition: 0.5s;
-    object-fit:cover;
 }
 
 #reaki:hover{
     transform: scale(0.9);
-}
-
-#logo1 #reaki{
-    display: flex;
-    height: 150px;
 }
 
 #logo0 #reaki{
@@ -79,9 +65,7 @@ body{
 /*opciones de menu*/
 
 #menu #navbar ul li{
-    position: relative;
     float: left;
-    text-align: right;
 }
 
 #menu #navbar ul li a{
@@ -366,6 +350,11 @@ td a{
     border: 3px solid rgba(238, 130, 238, 0.567);
     background: rgb(100, 90, 100);
     backdrop-filter:  blur(0.4rem);
+}
+
+#logo1 #reaki{
+    display: flex;
+    height: 150px;
 }
 
 #fin a{
